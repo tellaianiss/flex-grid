@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.num-pad{
+    display: flex;
+    justify-content: space-around;
+}
+.main-section{
+    background-color: hsl(222, 26%, 31%);
+    width: 40vw;
+    height: 100vh;
+    border: 1px solid hsl(228, 45%, 44%);
+}
+
+.inner-nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+.status-container{
+    align-items: flex-end;
+    display: flex;
+    gap: 12px;
+}
+#circle{
+   
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 80%;
+}
+#on{
+    background-color: hsl(223, 31%, 21%);
+    padding: 8px;
+    border-radius: 16px;
+    border: 0;
+    width: 80px; 
+    height: 30px; 
+}
+
+.display{
+    color: white;
+    background: hsl(223, 31%, 21%);
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 14px 10px 14px 10px;
+    margin: 16px 40px;
+    align-items: center;
+}
+
+.big-buttons-container{
+    background: hsl(223, 31%, 21%);
+    margin: 16px 40px;
+    padding: 16px;
+    border-radius: 16px;
+    }
+
+.row-button{
+margin-top: 24px;
+    }
+
+.button-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-button{
+    border: 0;
+    font-weight: 800;
+    font-size: 30px;
+    width: 100px;
+    height: 60px;
+    margin: 6px;
+    border-radius: 12px;
+    
+
+}
+
+.b-button{
+    border-radius: 12px;
+    border: 0;
+    font-weight: 800;
+    font-size: 20px;
+    width: 220px;
+    height: 60px;
+}
+
+.purple-btn{
+    border: 0;
+    background-color: hsl(225, 21%, 49%);
+}
+
+.red-btn{
+    background-color: hsl(0, 92%, 49%);
+}
